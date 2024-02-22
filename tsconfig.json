@@ -4,7 +4,16 @@
     "lib": ["ESNext"],
     "outDir": "dist",
     "baseUrl": "./",
-    "paths": {}
+    "paths": {
+      "@/config/*": ["src/config/*"],
+      "@/controllers/*": ["src/controllers/*"],
+      "@/loaders/*": ["src/loaders/*"],
+      "@/repos/*": ["src/repos/*"],
+      "@/routes/*": ["src/routes/*"],
+      "@/services/*": ["src/services/*"],
+      "@/types/*": ["src/types/*"],
+      "@/src/*": ["src/*"]
+    }
   },
   "include": ["src"],
   "exclude": ["node_modules", "**/*.test.ts"]

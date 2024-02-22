@@ -10,7 +10,14 @@
     },
     "baseUrl": "./",
     "paths": {
-      //   "@/sample": ["src/sample.ts"]
+      "@/config/*": ["src/config/*"],
+      "@/controllers/*": ["src/controllers/*"],
+      "@/loaders/*": ["src/loaders/*"],
+      "@/repos/*": ["src/repos/*"],
+      "@/routes/*": ["src/routes/*"],
+      "@/services/*": ["src/services/*"],
+      "@/types/*": ["src/types/*"],
+      "@/src/*": ["src/*"]
     }
   },
   "module": {
